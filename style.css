@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.paisaje{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 width:100% ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    padding: 5px;
+    margin: 10px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 20;
+    background-color: rgba(49, 49, 49, 0.493);
+}
+
+
+.enca{
+    width: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: deeppink;
+}
+
+.anclas{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.anclas a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.anclas a:hover{
+    background-color: rgba(0, 0, 0, 0.61);
+    color: deeppink;
+}
+
+.sup{
+    display: flex;
+    width: auto;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    
+}
+
+.caja{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.nombre{
+    flex-grow: 1;
+    color: deeppink;
+    font-family: 'Sacramento', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.text{
+    flex-grow: 1;
+    color: white;
+    font-family: 'Sacramento', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.iconos{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icono1{
+    color: white;
+}
+
+#icon{
+    color: white;
+    font-size: 30px;
+}
+
+#icon:hover{
+    background-color: black;
+    color: deeppink;
+}
+
+.pai2{
+    background-color: black;
+    width: auto;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.pai2{
+    display: flex;
+}
+
+.foto{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foto1{
+    border: 15px solid deeppink; 
+    background-image: url("Fotopro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 79%;
+    height: 500px;
+}
+
+.foto1:hover:hover{
+    border-color: gold;
+}
+
+
+.infor{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.mas{
+    flex-grow: 1;
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.pre{
+    flex-grow: 2;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.boton{
+    flex-grow: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.boto{
+    background-color: deeppink;
+    border-radius: 15%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    font-weight: bold;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boto:hover{
+    background-color: black;
+    color: white;
+}
+
+.pai3{
+    background-color: black;
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ser{
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: black;
+}
+
+
+.ser::before, .ser::after{
+    content: ' ';
+    display: block;
+    width: 400px;
+    height: 5px;
+    background-color: deeppink;
+    margin: 10px;
+}
+
+.ser2{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    gap: 30px;
+}
+
+.cono{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(49, 49, 49, 0.959);
+}
+
+.cono2{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(49, 49, 49, 0.959);
+}
+
+.cono3{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(49, 49, 49, 0.959);
+}
+
+.cono4{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(49, 49, 49, 0.959);
+}
+
+.iccono{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pala{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Sacramento', cursive;
+}
+
+.cont{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iccono2{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pala2{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Sacramento', cursive;
+}
+
+.cont2{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iccono3{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pala3{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Sacramento', cursive;
+}
+
+.cont3{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iccono4{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pala4{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Sacramento', cursive;
+}
+
+.cont4{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cono:hover{
+    background-color: deeppink;
+}
+
+.cono2:hover{
+    background-color: deeppink;
+}
+
+.cono3:hover{
+    background-color: deeppink;
+}
+
+.cono4:hover{
+    background-color: deeppink;
+}
+
+.pai4{
+    background-color: black;
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fo{
+    width: 80%;
+    height: 450px;
+    display: flex;
+}
+
+.con{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+.formu{
+ 
+    flex-grow: 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+}
+
+.icol{
+    flex-grow: 1;
+    color: deeppink;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ten{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+}
+
+input, textarea{
+    margin:10px;
+    padding:10px ;
+    background-color:rgba(49, 49, 49, 0.959);
+    border-style: solid ;
+    border-width: 0px 0px 1px 0px;
+    border-color: deeppink;
+    color: white;
+}
+
+.boton{
+    background-color: deeppink;
+    color: white;
+}
+
+.boton2{
+    background-color: deeppink;
+    color: white;
+    width: 50px;
+}
